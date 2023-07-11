@@ -1,0 +1,189 @@
+*{
+background-color: silver;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+color: black;
+border: none;
+}
+
+body{
+font-family: Arial, sans-serif;
+white-space: nowrap;
+}
+    
+.brand-logo img{
+height: auto;
+width: 120px;
+margin-top: 60px;
+margin-left: 110px;
+margin-right: 290px;
+vertical-align: middle;
+}
+    
+    ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 90px;
+    }
+    
+    .item{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    cursor: pointer;
+    }
+    
+    .line{
+    background-color: rgb(40, 38, 38);
+    width: 100%;
+    margin-bottom: 20px;
+    height: 1px;
+    }
+    
+    .container img{
+    height:  490px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+       
+    }
+    
+.img-1{
+margin-right: 130px;
+margin-left: 0px;
+cursor: pointer;
+filter: grayscale(100%);
+}
+ 
+.img-1:hover{
+filter: none;
+}
+
+.img-2{
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+    filter: grayscale(100%);
+
+}
+
+.img-2:hover{
+filter: none;
+}
+
+.img-3{
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.img-3:hover{
+filter: none;
+}
+
+.container-one{
+display: flex;
+}
+
+.container-two{
+display: flex;
+}
+
+.container-three{
+display: flex;
+}
+
+.text-1{
+display: inline-block;
+writing-mode: vertical-lr;
+font-size: 3rem;
+font-weight: bold;
+margin-top: 80px;
+margin-left: 90px;
+cursor: pointer;
+}
+
+.text-2{
+    display: inline-block;
+    writing-mode: vertical-lr;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 140px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.text-3{
+    display: inline-block;
+    writing-mode: vertical-lr;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.line-2{
+background-color: black;
+width: 275%;
+height: 1px;
+margin-top: 90px;
+}
+
+.footer img{
+width: 120px;
+height: auto;
+margin-left: 40px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 48px;
+}
+
+.fa-whatsapp{
+font-size: 3rem;
+text-align: center;
+margin-top: 200px;
+margin-left: 50px;
+color: rgb(30, 196, 30);
+cursor: pointer;
+}
+
+.fa-whatsapp:hover{
+background-color: antiquewhite;
+}
+
+a{
+text-decoration: none;
+color: rgb(124, 79, 165);
+}
+
+.f-text1{
+font-size: 1.2rem;
+width: 75%;
+}
+
+.f-text2{
+font-size: 1.2rem;
+}
+
+.fa-brands{
+font-size: 2.3rem;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.fa-brands:hover{
+background-color: aliceblue;
+}
